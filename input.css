@@ -1,14 +1,6 @@
 @import 'tailwindcss';
 
-@font-face {
-  font-family: 'Clash Display';
-  font-style: normal;
-  font-weight: 200 700;
-  font-display: swap;
-  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2');
-}
-
-/* Buat class utilitas font custom */
 @theme {
-  --font-clash: 'Clash Display', sans-serif;
+  --font-clash: 'Clash Display', system-ui, sans-serif;
+  --font-poppins: 'Poppins', system-ui, sans-serif;
 }
